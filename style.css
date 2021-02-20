@@ -1,0 +1,48 @@
+body{
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  font-family: georgia;
+  background: #FFFFFF;
+}
+
+#menu{
+  display: inline-block;
+  height:100px;
+  width: 100%;
+  background-color: #290661;
+  position: fixed;
+  color: #EEE6FB;
+}
+
+
+#menuLinks{
+  position: absolute;
+  bottom: 5px;
+}
+h1{
+  margin-left: 10px;
+  padding: 0px;
+}
+a{
+  color: #EEE6FB;
+  background-color: #4B3E61;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 350px;
+    margin-right: 100px;
+}
+a:link, a:visited{
+  color: #4B3E61;
+  font-size: 16px;
+  background-color: #EEE6FB;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 100px;
+    margin-right: 100px;
+}
