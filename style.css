@@ -1,3 +1,4 @@
+/*home page and general css*/
 body{
   height: 100%;
   padding: 0px;
@@ -129,6 +130,7 @@ img{
   max-width: 60%;
   margin:10px;
   font-size: 17px;
+  text-overflow: ellipsis;
 
 }
 #genderContent{
@@ -167,6 +169,80 @@ img{
   margin-right: 2%;
 }
 .genderDonate a{
+  display: inline-block;
+  color: #290661;
+  font-size: 16px;
+  text-decoration: underline;
+  margin: 10px;
+}
+
+/*race page*/
+#raceHeader{
+  display: inline-block;
+  height: 300px;
+  width: 92%;
+  padding-top: 90px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-bottom: 5px;
+  background-color: #EEE6FB;
+  border-color: #290661;
+  border-style: solid;
+  color: #290661;
+  text-align: center;
+}
+#racePhoto{
+  display: inline-block;
+  max-width: 33%;
+  padding-top: 20px;
+  margin: 10px;
+}
+
+#raceDescription{
+  display:inline-block;
+  max-width: 60%;
+  margin:10px;
+  font-size: 17px;
+  text-overflow: ellipsis;
+
+}
+#raceContent{
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin-top: 5px;
+}
+#raceGraph{
+  display: inline-block;
+  margin: 5px;
+  color: #290661;
+  text-align: center;
+  width: 46%;
+  border-color: #290661;
+  border-style: solid;
+}
+#raceCovid{
+  width: 46%;
+  display: inline-block;
+  margin: 5px;
+  color: #290661;
+  text-align: center;
+  border-color: #290661;
+  border-style: solid;
+}
+
+#raceLinks{
+  background-color: #EEE6FB;
+  border-color: #290661;
+  border-style: solid;
+  color: #4B3E61;
+  width:90%;
+  height: 180px;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 2%;
+}
+.raceDonate a{
   display: inline-block;
   color: #290661;
   font-size: 16px;
