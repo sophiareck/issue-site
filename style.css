@@ -4,6 +4,7 @@ body{
   margin: 0px;
   font-family: georgia;
   background-color: #FFFFFF;
+   overflow-x: hidden;
 }
 
 #mainContainer {
@@ -98,4 +99,77 @@ img{
   max-width: 100%;
   height: auto;
 
+}
+
+/*Gender Page*/
+#genderHeader {
+  display: inline-block;
+  height: 300px;
+  width: 92%;
+  padding-top: 90px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-bottom: 5px;
+  background-color: #EEE6FB;
+  border-color: #290661;
+  border-style: solid;
+  color: #290661;
+  text-align: center;
+}
+#genderPhoto{
+  text-align: left;
+  display: inline-block;
+  max-width: 33%;
+  padding-top: 20px;
+  margin: 10px;
+}
+
+#genderDescription{
+  display:inline-block;
+  max-width: 60%;
+  margin:10px;
+  font-size: 17px;
+
+}
+#genderContent{
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+#genderGraph{
+  display: inline-block;
+  margin: 5px;
+  color: #290661;
+  text-align: center;
+  width: 46%;
+  border-color: #290661;
+  border-style: solid;
+}
+#genderCovid{
+  width: 46%;
+  display: inline-block;
+  margin: 5px;
+  color: #290661;
+  text-align: center;
+  border-color: #290661;
+  border-style: solid;
+}
+
+#genderLinks{
+  background-color: #EEE6FB;
+  border-color: #290661;
+  border-style: solid;
+  color: #4B3E61;
+  width:90%;
+  height: 130px;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 2%;
+}
+.genderDonate a{
+  display: inline-block;
+  color: #290661;
+  font-size: 16px;
+  text-decoration: underline;
+  margin: 10px;
 }
